@@ -1,0 +1,45 @@
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-image: linear-gradient(10deg, #0d1825, #001c35 40%, #0d1825);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 15px 15px rgba(12, 60, 49, 0.3);
+}
+
+@keyframes floatButton {
+  0% {
+    background-color: red;
+    right: 20px;
+    top: 500px;
+  }
+  25% {
+    background-color: red;
+    right: 20px;
+    top: 375px;
+  }
+  50% {
+    background-color: red;
+    right: 20px;
+    top: 250px;
+  }
+  100% {
+    background-color: red;
+    right: 20px;
+    top: 0px;
+  }
+}
+
+.spin {
+  transform: rotate(360deg);
+  animation-name: floatButton;
+  animation-duration: 4s;
+}

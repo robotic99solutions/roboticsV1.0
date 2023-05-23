@@ -1,0 +1,45 @@
+.carousel {
+  width: 100%;
+}
+
+.legend {
+  font-weight: 600;
+}
+
+.carousel .slide {
+  min-width: 100%;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  max-height: 400px;
+}
+
+.carousel .slide img {
+  width: 100%;
+  /* vertical-align: top; */
+  border-radius: 10px;
+  height: 40vh;
+}
+
+.thumbs-wrapper {
+  display: none;
+}
+
+.mySliderRoot {
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.slider {
+  height: 60vh;
+}
+
+.carousel .slide img {
+  height: 60vh;
+}
+
+@media screen and (min-width: 769px) {
+  .carousel .slide .legend {
+    bottom: -160px;
+  }
+}

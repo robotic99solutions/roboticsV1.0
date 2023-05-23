@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid darkgrey;
+  border-radius: 8px;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.8);
+  margin: 10px 5px;
+  padding: 5px;
+
+  min-width: 80%;
+  min-height: 150px;
+}
+
+.card i {
+  padding: 5px;
+}
+.card Button {
+  border-radius: 5px;
+  color: white;
+  background-color: #5ba9ff;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+Box {
+  background-color: khaki;
+}
+
+@media screen and (max-width: 769px) {
+  .card {
+    min-width: 155px;
+    min-height: 150px;
+  }
+}
